@@ -141,5 +141,30 @@ hr {
 	width: 500px;
 
 }
+.copyrighttext {
+	position: absolute;
+	width: 250px;
+	height: 30px;
+	margin: 0 auto;
+	text-align: center;
+	left: calc(50% - 250px/2);
+	top: calc(50% - 30px/2 + 680px);
 
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+
+.bottom-container {
+	/* Color Drop */
+
+	left: calc(50% - 1024px/2);
+	height: 91px;
+	margin-top: 140px;
+	background: #B4DEEB;
+	opacity: 0.7;
+}
 
