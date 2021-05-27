@@ -7,7 +7,7 @@ body {
 
 	position: relative;
 	height: 1440px;
-	background: #FFCBBA;
+	background: #B1D6E1;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -16,7 +16,7 @@ body {
 	height: 220px;
 	left: calc(50% - 1000px/2);
 	top: calc(50% - 220px/2 - 598px);
-	background: #FFBBA6;
+	background: #B4DEEB;
 	opacity: 0.5;
 }
 
@@ -124,6 +124,22 @@ hr {
 	font-size: 18px;
 	line-height: 22px;
 	color: #FFFFFF;
+}
+
+.pictures {
+	margin-left: 100px;
+	margin-top: 360px;
+	margin-right: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.img-pic {
+
+	width: 500px;
+
 }
 
 
