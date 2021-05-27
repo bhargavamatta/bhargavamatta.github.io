@@ -8,8 +8,6 @@ body {
 	position: relative;
 	height: 1440px;
 	background: #FFCBBA;
-	border: 2px solid #FFFFFF;
-	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
 }
 
