@@ -10,33 +10,122 @@ body {
 	background: #FFCBBA;
 	border: 2px solid #FFFFFF;
 	box-sizing: border-box;
-	font-family: "Montserrat";
+	font-family: 'Montserrat', sans-serif;
 }
-
-/* Nav */
 
 .nav-container {
 	/* Color Drop */
-height: 220px;
-background: #FFBBA6;
-opacity: 0.5;
+	height: 220px;
+	left: calc(50% - 1000px/2);
+	top: calc(50% - 220px/2 - 598px);
+	background: #FFBBA6;
+	opacity: 0.5;
+}
+
+.logo {
+	position: absolute;
+	width: 400px;
+	height: 100px;
+	left: calc(50% - 400px/2);
+	top: calc(50% - 100px/2 - 642px);
+
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 59px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
 }
 
 nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 100px;
+	text-align: center;
 }
 
 nav ul {
 	display: flex;
+	position: absolute;
+	width: 750px;
+	height: 50px;
+	left: calc(50% - 750px/2);
+	top: calc(50% - 50px/2 - 551px);
 }
 
-.logo {
-	font-family: Montserrat;
+.nav-items li {
+	list-style: none;
+	width: 222px;
+	height: 50px;
+	align-items: center;
+	text-align: center;
+
+}
+
+.nav-items li a {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 500;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	width: 110px;
+	border: 0;
+	border-top: 2px solid white;
+	margin: 0.3em 55px;
+	padding: 0;
+}
+
+.statement{
+	position: absolute;
+	width: 730px;
+	height: 170px;
+	left: calc(50% - 730px/2);
+	top: calc(50% - 170px/2 - 393px);
+
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
 	font-size: 48px;
+	line-height: 59px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
+.arrow {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: calc(50% - 50px/2);
+	top: calc(50% - 50px/2 - 271px);
+
+}
+.arrow-container{
+	position: absolute;
+	width: 250px;
+	height: 30px;
+	margin: 0 auto;
+	text-align: center;
+	left: calc(50% - 250px/2);
+	top: calc(50% - 30px/2 - 226px);
+
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 22px;
 	color: #FFFFFF;
 }
+
+
