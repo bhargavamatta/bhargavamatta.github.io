@@ -3,18 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Webpage</title>
+    <title>Bhargava Matta</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">Hi<span>!</span></a>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="content.html" class="nav-link">Experience</a></li>
+        </ul>
+        <button class="mobile-menu-btn">
+            <i>☰</i>
+        </button>
+    </nav>
+    
     <header class="video-banner">
         <video autoplay loop muted playsinline class="banner-video">
             <source src="attached_assets/video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <div class="container">
-            <h1>Welcome to My Personal Webpage</h1>
+            <h1 class="name-overlay">Bhargava Matta</h1>
+            <p class="subtitle">It's nice to see you</p>
         </div>
     </header>
     
@@ -23,24 +35,16 @@
             <div class="portrait-container">
                 <img src="attached_assets/my_portrait.jpg" alt="My Portrait" class="circle-portrait">
             </div>
-            <h2>Hello, I'm Your Name</h2>
+            <h2>Hello, I'm Bhargava Matta</h2>
             <p class="intro-text">A professional passionate about brand management, product innovation, and data analysis.</p>
         </section>
         
-        <section class="video-section reveal">
-            <video autoplay loop muted playsinline>
-                <source src="video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </section>
-        
-        <section class="profile reveal">
-            <p>Explore my work and insights here!</p>
-        </section>
-        
         <section class="navigation reveal">
-            <a href="content.html" class="btn">Explore More</a>
+            <a href="content.html" class="btn explore-btn">My Experience</a>
         </section>
+        
+        
+        
     </div>
     
     <script src="script.js"></script>

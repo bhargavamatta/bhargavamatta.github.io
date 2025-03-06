@@ -1,6 +1,17 @@
 
 // Initialize ScrollReveal for smooth animations
 document.addEventListener('DOMContentLoaded', function() {
+  // Mobile menu functionality
+  const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+  const navMenu = document.querySelector('.nav-menu');
+  
+  if (mobileMenuBtn) {
+    mobileMenuBtn.addEventListener('click', function() {
+      navMenu.classList.toggle('active');
+      mobileMenuBtn.querySelector('i').textContent = 
+        navMenu.classList.contains('active') ? '✕' : '☰';
+    });
+  }
   // Configure ScrollReveal
   ScrollReveal().reveal('.reveal', { 
     duration: 1000,
