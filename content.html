@@ -5,17 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>More Content</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
-    <header>
-        <h1>More About My Work</h1>
+    <header class="video-banner">
+        <video autoplay loop muted playsinline class="banner-video">
+            <source src="attached_assets/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="container">
+            <h1>More About My Work</h1>
+        </div>
     </header>
-    <section class="content">
-        <img src="ai-generated-image.jpg" alt="AI-Generated Content">
-        <p>Here is some additional AI-generated content that represents my vision and ideas.</p>
-    </section>
-    <section class="navigation">
-        <a href="index.html" class="btn">Back to Home</a>
-    </section>
+    
+    <div class="container">
+        <section class="content reveal">
+            <img src="attached_assets/my_portrait.jpg" alt="Professional Portrait" class="content-portrait">
+            <p>Here is some additional content that represents my vision and ideas.</p>
+        </section>
+        
+        <section class="navigation reveal">
+            <a href="index.html" class="btn">Back to Home</a>
+        </section>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
